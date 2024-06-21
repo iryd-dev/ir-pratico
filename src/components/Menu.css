@@ -1,0 +1,26 @@
+.menu-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.menu-footer {
+  margin-top: auto;
+}
+
+.menu-footer .MuiListItem-root {
+  display: flex;
+  justify-content: center;
+}
+
+.tooltip {
+  display: none;
+}
+
+.MuiListItem-root:hover .tooltip {
+  display: inline;
+}

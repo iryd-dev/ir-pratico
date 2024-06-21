@@ -1,0 +1,53 @@
+.declarante-container {
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.data-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.column-selector {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-selector .form-check {
+  margin-right: 10px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.responsive-table {
+  table-layout: auto;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.button-group button {
+  margin-right: 10px;
+}
+
+@media (max-width: 1200px) {
+  .declarante-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.button-group .btn {
+  padding: 2px 6px;
+}
+
+.button-group .material-icons {
+  font-size: 16px;
+}
